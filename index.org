@@ -1,4 +1,4 @@
-#+REVEAL_ROOT: /src/reveal.js/
+#+REVEAL_ROOT: ./src/reveal.js/
 #+REVEAL_INIT_OPTIONS: transition:fade'
 #+REVEAL_THEME: simple
 #+REVEAL_DEFAULT_SLIDE_BACKGROUND: ./images/background_1.jpg
