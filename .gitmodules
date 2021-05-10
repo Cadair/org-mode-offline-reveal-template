@@ -1,3 +1,6 @@
 [submodule "src/reveal.js"]
 	path = src/reveal.js
 	url = https://github.com/hakimel/reveal.js
+[submodule "src/mathjax"]
+	path = src/mathjax
+	url = https://github.com/mathjax/MathJax.git

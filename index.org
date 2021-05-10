@@ -1,4 +1,5 @@
 #+REVEAL_ROOT: ./src/reveal.js/
+#+REVEAL_MATHJAX_URL: ./src/mathjax/es5/tex-chtml.js
 #+REVEAL_INIT_OPTIONS: transition:fade'
 #+REVEAL_THEME: simple
 #+REVEAL_DEFAULT_SLIDE_BACKGROUND: ./images/background_1.jpg
@@ -33,6 +34,16 @@ Find me online:
 
 #+REVEAL_HTML: </div>
 
+# Some Maths
+* Maths!
+
+${n! \over k!(n-k)!} = {n \choose k}$
+
+\begin{equation}
+x=\sqrt{b}
+\end{equation}
+
+If $a^2=b$ and \( b=2 \), then the solution must be either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 
 # AIA
 * 
