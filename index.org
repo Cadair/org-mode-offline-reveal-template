@@ -1,5 +1,7 @@
 #+REVEAL_ROOT: ./src/reveal.js/
 #+REVEAL_MATHJAX_URL: ./src/mathjax/es5/tex-chtml.js
+#+REVEAL_HIGHLIGHT_CSS: %r/plugin/highlight/monokai.css
+#+REVEAL_PLUGINS: (highlight)
 #+REVEAL_INIT_OPTIONS: transition:fade'
 #+REVEAL_THEME: simple
 #+REVEAL_DEFAULT_SLIDE_BACKGROUND: ./images/background_1.jpg
@@ -45,16 +47,26 @@ x=\sqrt{b}
 
 If $a^2=b$ and \( b=2 \), then the solution must be either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 
+* Code example with Babel
+
+#+begin_src python :session example :exports both
+  msg = "Hello World"
+
+  msg
+#+end_src
+
+#+RESULTS:
+: Hello World
+
 # AIA
-* 
+*
   :PROPERTIES:
   :reveal_background: ./images/fulldiskmulticolor.jpg
   :reveal_background_trans: slide
   :END:
 
 # DKIST
-* 
+*
   :PROPERTIES:
   :reveal_extra_attr: data-background-video="" data-background-video-loop=true
   :END:
-

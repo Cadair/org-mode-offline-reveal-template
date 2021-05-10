@@ -1,10 +1,9 @@
 body {
-    font-size: 28px;
     font-family: Lato, Ariel, sans-serif !important;
 }
 
 .reveal {
-    font-size: 28px;
+    font-size: 130%;
     overflow-y: scroll;
     font-family: Lato, Ariel, sans-serif !important;
 }
