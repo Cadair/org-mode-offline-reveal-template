@@ -2,7 +2,6 @@
 #+REVEAL_MATHJAX_URL: ./src/mathjax/es5/tex-chtml.js
 #+REVEAL_HIGHLIGHT_CSS: %r/plugin/highlight/monokai.css
 #+REVEAL_PLUGINS: (highlight notes)
-#+REVEAL_INIT_OPTIONS: transition:fade'
 #+REVEAL_THEME: simple
 #+REVEAL_DEFAULT_SLIDE_BACKGROUND: ./images/background_1.jpg
 #+REVEAL_TITLE_SLIDE_BACKGROUND: ./images/background_1.jpg
