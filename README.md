@@ -4,14 +4,19 @@ This is a template repo for making presentations in org mode with reveal.js.
 
 This is mostly to help me quickstart a presentation, but hopefully it might be useful to others.
 
-Combine `./export.sh` with [entr](https://github.com/eradman/entr) to autorebuild the file on save and [live-reload](https://github.com/blaise-io/live-reload/) to refresh your browser when the index.html file changes and you have a live-preview.
-
 ## Setup
 
 1. use template button
 2. clone new repo locally
 3. remember to also checkout the submodules
 4. edit talk.org
+5. Run org export to reveal (see the `export.sh` script for an example)
+6. Open index.html in a browser.
+
+
+## Live preview
+
+Combine `./export.sh` with [entr](https://github.com/eradman/entr) to autorebuild the file on save and [live-reload](https://github.com/blaise-io/live-reload/) to refresh your browser when the index.html file changes and you have a live-preview.
 
 
 ## Multiplex
