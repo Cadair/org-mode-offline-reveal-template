@@ -21,10 +21,10 @@
 
 Find me online:
 
-- [[http://stuartmumford.uk][stuartmumford.uk]]
+- [[https://cadair.com][cadair.com]]
 - [[https://matrix.to/#/@cadair:cadair.com][@cadair:cadair.com]] on Matrix
+- [[https://mastodon.matrix.org/@Cadair][@Cadair@mastodon.matrix.org]] on Mastodon
 - [[https://github.com/Cadair][@Cadair]] on GitHub
-- [[https://twitter.com/stuartmumford][@stuartmumford]] on Twitter
 
 #+REVEAL_HTML: </div>
 
