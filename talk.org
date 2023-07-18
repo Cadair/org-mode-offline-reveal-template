@@ -57,15 +57,14 @@ If $a^2=b$ and \( b=2 \), then the solution must be either $$ a=+\sqrt{2} $$ or 
 #+RESULTS:
 : Hello World
 
-# AIA
-*
+* AIA
   :PROPERTIES:
   :reveal_background: ./images/fulldiskmulticolor.jpg
   :reveal_background_trans: slide
   :END:
 
-# DKIST
-*
+* DKIST
   :PROPERTIES:
-  :reveal_extra_attr: data-background-video="" data-background-video-loop=true
+  :reveal_background:
+  :reveal_extra_attr: data-background-video="https://nso1.b-cdn.net/wp-content/uploads/2016/04/DKIST-First-Light-MZ-crop1-loop_FHD-H264.mp4" data-background-video-loop
   :END:
