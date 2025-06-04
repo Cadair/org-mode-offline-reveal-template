@@ -14,6 +14,10 @@ progn="(progn
   (require 'ox-reveal)
   (org-babel-do-load-languages 'org-babel-load-languages '((python . t)))
   (setq org-confirm-babel-evaluate nil)
+  ;; Set more reveal options not supported by ox-reveal
+  (defun cadair/org-reveal-scripts (scripts)
+    (concat scripts \"<script>Reveal.configure({hash:true});</script>\"))
+  (advice-add 'org-reveal-scripts :filter-return #'cadair/org-reveal-scripts)
   (org-reveal-export-to-html))"
 
 emacs --no-init-file --batch --visit "$index" --eval "$progn" --kill
