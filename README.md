@@ -14,6 +14,13 @@ This is mostly to help me quickstart a presentation, but hopefully it might be u
 6. Open index.html in a browser.
 
 
+## GitHub Pages
+
+This template includes a workflow to build the talk and publish to GitHub pages.
+
+To enable this you need to go into GitHub settings and [enable pages deployments from GitHub actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)
+
+
 ## Live preview
 
 Combine `./export.sh` with [entr](https://github.com/eradman/entr) to autorebuild the file on save and [live-reload](https://github.com/blaise-io/live-reload/) to refresh your browser when the index.html file changes and you have a live-preview.
