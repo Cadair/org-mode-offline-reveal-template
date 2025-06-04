@@ -2,13 +2,15 @@
 
 index=./talk.org
 
-oxreveal=$(find ~/.emacs.d/elpa/ -type d -name "ox-reveal-*" -print -quit)
-htmlize=$(find ~/.emacs.d/elpa/ -type d -name "htmlize-*" -print -quit)
-
 progn="(progn
   (package-initialize)
-  (add-to-list 'load-path \"$oxreveal\")
-  (add-to-list 'load-path \"$htmlize\")
+  (require 'use-package-ensure) ;; Load use-package-always-ensure
+  (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\") ;; Sets default package repositories
+                           (\"org\" . \"https://orgmode.org/elpa/\")
+                           (\"elpa\" . \"https://elpa.gnu.org/packages/\")))
+
+  (use-package ox-reveal :ensure t)
+  (use-package htmlize :ensure t)
   (require 'ox-reveal)
   (org-babel-do-load-languages 'org-babel-load-languages '((python . t)))
   (setq org-confirm-babel-evaluate nil)
