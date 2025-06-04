@@ -5,7 +5,7 @@ index=./talk.org
 progn="(progn
   (package-initialize)
   (require 'use-package-ensure) ;; Load use-package-always-ensure
-  (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\") ;; Sets default package repositories
+  (setq package-archives '((\"melpa\" . \"https://melpa.org/packages/\")
                            (\"org\" . \"https://orgmode.org/elpa/\")
                            (\"elpa\" . \"https://elpa.gnu.org/packages/\")))
 
