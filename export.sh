@@ -2,13 +2,16 @@
 
 index=./talk.org
 
-emacsversion=$(emacs --version | tr " " "\n" | sed -n 3p | sed 's|\(.*\)\..*|\1|')
-oxreveal=$(find ~/.emacs.d/elpa/$emacsversion/develop/ -type d -name "ox-reveal-*" -print -quit)
+oxreveal=$(find ~/.emacs.d/elpa/ -type d -name "ox-reveal-*" -print -quit)
+htmlize=$(find ~/.emacs.d/elpa/ -type d -name "htmlize-*" -print -quit)
 
 progn="(progn
   (package-initialize)
   (add-to-list 'load-path \"$oxreveal\")
+  (add-to-list 'load-path \"$htmlize\")
   (require 'ox-reveal)
+  (org-babel-do-load-languages 'org-babel-load-languages '((python . t)))
+  (setq org-confirm-babel-evaluate nil)
   (org-reveal-export-to-html))"
 
-emacs --batch --visit "$index" --eval "$progn" --kill
+emacs --no-init-file --batch --visit "$index" --eval "$progn" --kill
