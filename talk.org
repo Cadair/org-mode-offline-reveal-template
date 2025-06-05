@@ -8,13 +8,13 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 #+REVEAL_EXTRA_CSS: org.css
-#+REVEAL_POSTAMBLE: <script>Reveal.configure({hash:true});</script>
+#+REVEAL_POSTAMBLE: <script>Reveal.configure({ hash:true });</script>
 
 #+TITLE: SunPy: Python for Solar Physics
 #+AUTHOR: Stuart Mumford
 #+REVEAL_TITLE_SLIDE: <h3>%t</h3>
 #+REVEAL_TITLE_SLIDE: <h4>%a</h4>
-#+REVEAL_TITLE_SLIDE: <a href="https://aperio.software"><img style='float: left; width: 30%%; margin-top: 100px; height: 25%%;' src='images/aperio.svg'/></a><a href="https://sunpy.org"><img style='float: right; width: 30%%; margin-top: 100px; height: 25%%; margin-right: 5%%;' src='images/sunpy.svg'/></a>
+#+REVEAL_TITLE_SLIDE: <div class="three-columns" style="align-items: center;"><a href="https://aperio.software"><img src='images/aperio.svg'/></a><div></div><a href="https://sunpy.org"><img src='images/sunpy.svg'/></a></div>
 
 * Me
 
