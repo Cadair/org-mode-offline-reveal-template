@@ -3,7 +3,6 @@
 index=./talk.org
 
 progn="(progn
-  (package-initialize)
   (use-package ox-reveal
     :ensure t
     :vc t
@@ -17,4 +16,4 @@ progn="(progn
   (setq org-confirm-babel-evaluate nil)
   (org-reveal-export-to-html))"
 
-emacs --no-init-file --batch --visit "$index" --eval "$progn" --kill
+emacs --init-dir=./src/emacs --quick --batch --visit "$index" --eval "$progn" --kill
