@@ -12,7 +12,7 @@ jobs:
           submodules: true
 
       - name: Install emacs
-        run: sudo apt-get install -y emacs
+        run: sudo snap install emacs --classic
 
       - name: Build talk
         run: bash ./export.sh
