@@ -4,3 +4,9 @@
 [submodule "src/mathjax"]
 	path = src/mathjax
 	url = https://github.com/mathjax/MathJax.git
+[submodule "src/emacs/org-reveal"]
+	path = src/emacs/org-reveal
+	url = https://github.com/Cadair/org-reveal.git
+[submodule "src/emacs/emacs-htmlize"]
+	path = src/emacs/emacs-htmlize
+	url = https://github.com/hniksic/emacs-htmlize.git

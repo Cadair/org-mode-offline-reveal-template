@@ -8,6 +8,7 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 #+REVEAL_EXTRA_CSS: org.css
+#+REVEAL_POSTAMBLE: <script>Reveal.configure({hash:true});</script>
 
 #+TITLE: SunPy: Python for Solar Physics
 #+AUTHOR: Stuart Mumford
